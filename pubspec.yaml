@@ -1,0 +1,48 @@
+name: flutter_cake_shop_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^8.2.1   #ใช้ font ของ google ในแอป
+  font_awesome_flutter: ^11.0.0  # ใช้ icon fontawesome ใน App 
+  carousel_slider: ^5.1.2   # ทำ Slider
+  url_launcher: ^6.3.3     # ใช้โทร เปิดเว็บ เปิดเฟส เปิดแอปข้างนอก เช่น google map 
+  flutter_map: ^8.3.2  # ใช้แสดงแผนที่ใน App 
+  latlong2: ^0.10.1  # ใช้สำหรับแปลงพิกัด Latitude/Longitude 
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4  #ใช้สร้างไอคอนของแอปแสดงบนหน้า Home screen
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+  
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  
