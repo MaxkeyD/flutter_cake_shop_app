@@ -183,7 +183,7 @@ class _CakeShopListUiState extends State<CakeShopListUi> {
                 itemCount: cakeShopData.length,
                 // สร้าง Seperate เส้นแบ่ง
                 separatorBuilder: (context, index) => Divider(
-                  color: const Color.fromARGB(255, 207, 85, 77),
+                  color: const Color.fromARGB(254, 207, 85, 77),
                 ),
                 // สร้างหน้าตาของรายการที่จะแสดงที่ ListView
                 itemBuilder: (context, index){
